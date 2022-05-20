@@ -1,0 +1,199 @@
+/* 
+background: #FFFFFF;
+background: #F5F4FA; наша команда
+background: #2F303A; фуутер
+background: #2196F3; синий
+##212121 -заголовки
+#757575-серый весь текст
+#000000-лого студио
+*/
+:root{
+    --main-text-color: #757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --main-bg-color:#fff;
+    --footer-bg-color:#2F303A;
+    --our-team-bg-color:#F5F4FA;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+ 
+}
+/* Лого */
+.logo{
+    color:var(--title-text-color);
+    font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+}
+.logo-color{
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+/* Сайт навигация */
+.title{
+    color: var(--title-text-color);
+}
+.title .title-nav{
+    text-decoration: none;
+   color: var(--title-text-color);
+ 
+}
+.title-nav:hover,
+.title-nav:focus{
+    color: var(--accent-color); 
+}
+.title-font{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+/* контакт инфо */
+.list .auth {
+    color: var(--main-text-color);
+    text-decoration: none;
+    
+}
+.list .auth:hover,
+.list .auth:focus{
+    color: var(--accent-color);
+    
+}
+/* HERO */
+.hero{
+    background: var(--footer-bg-color);
+    color: var(--main-bg-color);
+    text-align: center;
+      
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button{
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    
+}
+/*    */
+ /* list of criteria */
+ .criteria-font{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+ }
+ .list-font{
+        font-size: 14px;
+        line-height: 1.71;
+         letter-spacing: 0.03em;
+        color: var(--main-text-color);
+ }
+ /* what are we doing */
+.team{
+     font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+}
+
+ /*  Our team    */
+ .work{
+     background: var(--our-team-bg-color);
+ }
+
+.work-member{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+.work-position{
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);
+}
+/* footer */
+.footer{
+    background: var(--footer-bg-color);
+}
+.logo-scndr{
+    color: var(--main-bg-color);
+}
+.footer-list{
+    list-style:none;
+}
+.font-adress{
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        
+}
+.style-adress{
+    color: var(--main-bg-color);
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+
+}
+.contact-adress{
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+
+/*     */
+
+/* portfolio css */
+
+.list-button{
+        color: var(--title-text-color);
+        background:var(--our-team-bg-color);
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        text-align: center;
+        letter-spacing: 0.03em;
+         
+}
+.list-button:hover,
+.list-button:focus{
+    color: var(--main-bg-color);
+    background: var(--accent-color);
+}
+.list-product{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.menu-font{
+        font-size: 16px;
+        line-height: 1.88;
+       letter-spacing: 0.03em;
+       color: var(--main-text-color);
+}
