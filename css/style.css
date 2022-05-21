@@ -132,6 +132,9 @@ body{
         color: var(--main-text-color);
 }
 /* footer */
+.adress{
+    font-style:normal;
+}
 .footer{
     background: var(--footer-bg-color);
 }
@@ -140,6 +143,7 @@ body{
 }
 .footer-list{
     list-style:none;
+    
 }
 .font-adress{
         font-size: 14px;
@@ -147,7 +151,7 @@ body{
         letter-spacing: 0.03em;
         
 }
-.style-adress{
+ .style-adress {
     color: var(--main-bg-color);
     list-style: none;
     text-decoration: none;
@@ -163,6 +167,7 @@ body{
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
+        
 }
 
 /*     */
@@ -170,6 +175,7 @@ body{
 /* portfolio css */
 
 .list-button{
+        font-family: 'Roboto', sans-serif;
         color: var(--title-text-color);
         background:var(--our-team-bg-color);
         cursor: pointer;
